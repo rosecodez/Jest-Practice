@@ -12,5 +12,5 @@ function caesarCipher(string) {
   }
   return caesarShift.join('');
 }
-console.log(caesarCipher('cats please!'));
+console.log(caesarCipher('cats please'));
 module.exports = caesarCipher;
